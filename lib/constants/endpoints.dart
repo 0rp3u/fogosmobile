@@ -1,5 +1,10 @@
-Map endpoints = {
-  'getFires': 'https://api-lb.fogos.pt/new/fires',
-  'getFire': 'https://api-lb.fogos.pt/fires?id=',
-  'getLocations': 'https://fogos.pt/js/dico.json',
-};
+class Endpoints {
+
+  static const String fogosBaseApi = "https://api-lb.fogos.pt";
+  static const String getFires     = "$fogosBaseApi/new/fires";
+  static const String getFire      = "$fogosBaseApi/fires?id=";
+  static const String getLocations = "$fogosBaseApi/js/dico.json";
+
+  static const String gitHubApi = "https://api.github.com/graphql";
+
+}
